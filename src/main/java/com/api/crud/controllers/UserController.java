@@ -45,6 +45,10 @@ public class UserController {
             return  "ERROR ==>"+ id;
         }
     }
+    @GetMapping("/getAll1")
+    public String getUsers1(){
+        return "this.userService.getUser()";
+    }
 
 
 }
